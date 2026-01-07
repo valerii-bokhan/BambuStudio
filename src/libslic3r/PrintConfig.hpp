@@ -1006,6 +1006,15 @@ PRINT_CONFIG_CLASS_DEFINE(
     //OrcaSlicer
     ((ConfigOptionFloat, top_solid_infill_flow_ratio))
     ((ConfigOptionFloat, initial_layer_flow_ratio))
+    ((ConfigOptionBool, set_other_flow_ratios))
+    ((ConfigOptionFloat, outer_wall_flow_ratio))
+    ((ConfigOptionFloat, inner_wall_flow_ratio))
+    ((ConfigOptionFloat, overhang_flow_ratio))
+    ((ConfigOptionFloat, sparse_infill_flow_ratio))
+    ((ConfigOptionFloat, internal_solid_infill_flow_ratio))
+    ((ConfigOptionFloat, gap_fill_flow_ratio))
+    ((ConfigOptionFloat, support_flow_ratio))
+    ((ConfigOptionFloat, support_interface_flow_ratio))    
     ((ConfigOptionFloat, filter_out_gap_fill))
     ((ConfigOptionBool, precise_outer_wall))
     //calib
